@@ -23,19 +23,19 @@ Display the result.
 ## PROGRAM:
 ```
 '''
-Developed by: sai vivek.R
-Register Number:23003676
+Developed by:sai vivek.R
+RegisterNumber: 23003676
+import sys
+count = 0
+with open (sys.argv[1],'r') as f1:
+    for line in f1:
+        word = line.split()
+        count += len (word)
+print("word count in file = ",count)
 '''
-import pandas as pd
-df = pd.read_csv("nba.csv")
-print(df.head(10))
-print(df.tail())
-print("Number of rows:",len(df.axes[0))
-print("NUmber of columns:",len(df.axes[1]))
 ```
 ## OUTPUT:
-
-![Screenshot 2023-12-29 000752](https://github.com/RAGALASAIVIVEK/Read-from-CSV/assets/144979718/59a35572-2fee-4ff4-a171-49bded631bf5)
+![Screenshot 2023-12-29 003248](https://github.com/RAGALASAIVIVEK/Read-from-CSV/assets/144979718/d0d54641-4ee9-43e8-9c22-424edab350ab)
 
 
 ## RESULT:
